@@ -89,12 +89,20 @@ section .box p{
 
 .btn{
     font-weight: bold;
+    border: 2px solid;
     padding: 15px 30px;
     text-align: center;
-    width: 100px;
     color: white;
     border-radius: 5px;
     background-color: #5E2CED;
+}
+
+.btn:hover{
+    border: 2px solid #5E2CED;
+    background-color: white;
+    border-radius: 5px;
+    color: #5E2CED;
+    cursor: pointer;
 }
 
 .one-img img{}
