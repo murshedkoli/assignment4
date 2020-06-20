@@ -38,6 +38,7 @@ nav{
     list-style-type: none;
     display: inline-block;
     padding: 25px;
+    transition-duration: 1s;
 }
 .menu-area ul li a{
     text-decoration: none;
@@ -49,7 +50,7 @@ nav{
     font-weight: bolder;
 }
 .menu-area ul li:hover{
-    box-shadow: 0px 1px 1px 0px #333333;
+    box-shadow: 0px 1px 1px 0px #3e3d3d36;
 }
 
 
@@ -95,6 +96,7 @@ section .box p{
     color: white;
     border-radius: 5px;
     background-color: #5E2CED;
+    transition-duration: 1s;
 }
 
 .btn:hover{
