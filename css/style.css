@@ -19,13 +19,13 @@ body{}
 nav{
     background-color: #7F56F5;
     height: 65px;
+    padding: 20px;
 }
 .logo-area{
     width: 20%;
     float: left;
 }
 .logo-area img{
-    padding: 12px;
     width: 156px;
 }
 .menu-area{
@@ -37,7 +37,7 @@ nav{
 .menu-area ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 25px;
+    padding: 10px;
     transition-duration: 1s;
 }
 .menu-area ul li a{
@@ -54,18 +54,18 @@ nav{
 }
 
 
-header{
+.header{
     background-color: #7f56f5;
     color: white;
     text-align: center;
     padding: 100px;
 }
-header h1{
+.header h1{
     font-size: 40px;
     padding: 20px;
     color: #F2E5FD;
 }
-header p{
+.header p{
     color: #F2E5FD;
 }
 section{width: 100%;padding: 20px 0;overflow: hidden;box-sizing: border-box;}
